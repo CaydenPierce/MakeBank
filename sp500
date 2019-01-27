@@ -1,0 +1,507 @@
+,company,headquarters,industry,sector,symbol
+0,3M Company,"St. Paul, Minnesota",Industrial Conglomerates,Industrials,MMM
+1,Abbott Laboratories,"North Chicago, Illinois",Health Care Equipment,Health Care,ABT
+2,AbbVie Inc.,"North Chicago, Illinois",Pharmaceuticals,Health Care,ABBV
+3,ABIOMED Inc,"Danvers, Massachusetts",Health Care Equipment,Health Care,ABMD
+4,Accenture plc,"Dublin, Ireland",IT Consulting & Other Services,Information Technology,ACN
+5,Activision Blizzard,"Santa Monica, California",Interactive Home Entertainment,Communication Services,ATVI
+6,Adobe Systems Inc,"San Jose, California",Application Software,Information Technology,ADBE
+7,Advanced Micro Devices Inc,"Sunnyvale, California",Semiconductors,Information Technology,AMD
+8,Advance Auto Parts,"Roanoke, Virginia",Automotive Retail,Consumer Discretionary,AAP
+9,AES Corp,"Arlington, Virginia",Independent Power Producers & Energy Traders,Utilities,AES
+10,Affiliated Managers Group Inc,"Beverly, Massachusetts",Asset Management & Custody Banks,Financials,AMG
+11,AFLAC Inc,"Columbus, Georgia",Life & Health Insurance,Financials,AFL
+12,Agilent Technologies Inc,"Santa Clara, California",Health Care Equipment,Health Care,A
+13,Air Products & Chemicals Inc,"Allentown, Pennsylvania",Industrial Gases,Materials,APD
+14,Akamai Technologies Inc,"Cambridge, Massachusetts",Internet Services & Infrastructure,Information Technology,AKAM
+15,Alaska Air Group Inc,"Seattle, Washington",Airlines,Industrials,ALK
+16,Albemarle Corp,"Baton Rouge, Louisiana",Specialty Chemicals,Materials,ALB
+17,Alexandria Real Estate Equities Inc,"Pasadena, California",Office REITs,Real Estate,ARE
+18,Alexion Pharmaceuticals,"Cheshire, Connecticut",Biotechnology,Health Care,ALXN
+19,Align Technology,"San Jose, California",Health Care Supplies,Health Care,ALGN
+20,Allegion,"Dublin, Ireland",Building Products,Industrials,ALLE
+21,"Allergan, Plc","Dublin, Ireland",Pharmaceuticals,Health Care,AGN
+22,Alliance Data Systems,"Plano, Texas",Data Processing & Outsourced Services,Information Technology,ADS
+23,Alliant Energy Corp,"Madison, Wisconsin",Electric Utilities,Utilities,LNT
+24,Allstate Corp,"Northfield Township, Illinois",Property & Casualty Insurance,Financials,ALL
+25,Alphabet Inc Class A,"Mountain View, California",Interactive Media & Services,Communication Services,GOOGL
+26,Alphabet Inc Class C,"Mountain View, California",Interactive Media & Services,Communication Services,GOOG
+27,Altria Group Inc,"Richmond, Virginia",Tobacco,Consumer Staples,MO
+28,Amazon.com Inc.,"Seattle, Washington",Internet & Direct Marketing Retail,Consumer Discretionary,AMZN
+29,Ameren Corp,"St. Louis, Missouri",Multi-Utilities,Utilities,AEE
+30,American Airlines Group,"Fort Worth, Texas",Airlines,Industrials,AAL
+31,American Electric Power,"Columbus, Ohio",Electric Utilities,Utilities,AEP
+32,American Express Co,"New York, New York",Consumer Finance,Financials,AXP
+33,"American International Group, Inc.","New York, New York",Property & Casualty Insurance,Financials,AIG
+34,American Tower Corp.,"Boston, Massachusetts",Specialized REITs,Real Estate,AMT
+35,American Water Works Company Inc,"Voorhees, New Jersey",Water Utilities,Utilities,AWK
+36,Ameriprise Financial,"Minneapolis, Minnesota",Asset Management & Custody Banks,Financials,AMP
+37,AmerisourceBergen Corp,"Chesterbrook, Pennsylvania",Health Care Distributors,Health Care,ABC
+38,AMETEK Inc.,"Berwyn, Pennsylvania",Electrical Components & Equipment,Industrials,AME
+39,Amgen Inc.,"Thousand Oaks, California",Biotechnology,Health Care,AMGN
+40,Amphenol Corp,"Wallingford, Connecticut",Electronic Components,Information Technology,APH
+41,Anadarko Petroleum Corp,"The Woodlands, Texas",Oil & Gas Exploration & Production,Energy,APC
+42,"Analog Devices, Inc.","Norwood, Massachusetts",Semiconductors,Information Technology,ADI
+43,ANSYS,"Canonsburg, Pennsylvania",Application Software,Information Technology,ANSS
+44,Anthem Inc.,"Indianapolis, Indiana",Managed Health Care,Health Care,ANTM
+45,Aon plc,"London, United Kingdom",Insurance Brokers,Financials,AON
+46,A.O. Smith Corp,"Milwaukee, Wisconsin",Building Products,Industrials,AOS
+47,Apache Corporation,"Houston, Texas",Oil & Gas Exploration & Production,Energy,APA
+48,Apartment Investment & Management (Aimco),"Denver, Colorado",Residential REITs,Real Estate,AIV
+49,Apple Inc.,"Cupertino, California","Technology Hardware, Storage & Peripherals",Information Technology,AAPL
+50,Applied Materials Inc.,"Santa Clara, California",Semiconductor Equipment,Information Technology,AMAT
+51,Aptiv Plc,"Gillingham, Kent, United Kingdom",Auto Parts & Equipment,Consumer Discretionary,APTV
+52,Archer-Daniels-Midland Co,"Decatur, Illinois",Agricultural Products,Consumer Staples,ADM
+53,Arconic Inc.,"New York, New York",Aerospace & Defense,Industrials,ARNC
+54,Arista Networks,"Santa Clara, California",Communications Equipment,Information Technology,ANET
+55,Arthur J. Gallagher & Co.,"Itasca, Illinois",Insurance Brokers,Financials,AJG
+56,Assurant Inc.,"New York, New York",Multi-line Insurance,Financials,AIZ
+57,AT&T Inc.,"Dallas, Texas",Integrated Telecommunication Services,Communication Services,T
+58,Autodesk Inc.,"San Rafael, California",Application Software,Information Technology,ADSK
+59,Automatic Data Processing,"Roseland, New Jersey",Internet Software & Services,Information Technology,ADP
+60,AutoZone Inc,"Memphis, Tennessee",Specialty Stores,Consumer Discretionary,AZO
+61,"AvalonBay Communities, Inc.","Arlington, Virginia[5]",Residential REITs,Real Estate,AVB
+62,Avery Dennison Corp,"Glendale, California",Paper Packaging,Materials,AVY
+63,"Baker Hughes, a GE Company","Houston, Texas",Oil & Gas Equipment & Services,Energy,BHGE
+64,Ball Corp,"Broomfield, Colorado",Metal & Glass Containers,Materials,BLL
+65,Bank of America Corp,"Charlotte, North Carolina",Diversified Banks,Financials,BAC
+66,The Bank of New York Mellon Corp.,"New York, New York",Asset Management & Custody Banks,Financials,BK
+67,Baxter International Inc.,"Deerfield, Illinois",Health Care Equipment,Health Care,BAX
+68,BB&T Corporation,"Winston-Salem, North Carolina",Regional Banks,Financials,BBT
+69,Becton Dickinson,"Franklin Lakes, New Jersey",Health Care Equipment,Health Care,BDX
+70,Berkshire Hathaway,"Omaha, Nebraska",Multi-Sector Holdings,Financials,BRK-B
+71,Best Buy Co. Inc.,"Richfield, Minnesota",Computer & Electronics Retail,Consumer Discretionary,BBY
+72,Biogen Inc.,"Weston, Massachusetts",Biotechnology,Health Care,BIIB
+73,BlackRock,"New York, New York",Asset Management & Custody Banks,Financials,BLK
+74,Block H&R,"Kansas City, Missouri",Specialized Consumer Services,Consumer Discretionary,HRB
+75,Boeing Company,"Chicago, Illinois",Aerospace & Defense,Industrials,BA
+76,Booking Holdings Inc,"Norwalk, Connecticut",Internet & Direct Marketing Retail,Consumer Discretionary,BKNG
+77,BorgWarner,"Auburn Hills, Michigan",Auto Parts & Equipment,Consumer Discretionary,BWA
+78,Boston Properties,"Boston, Massachusetts",Office REITs,Real Estate,BXP
+79,Boston Scientific,"Marlborough, Massachusetts[6]",Health Care Equipment,Health Care,BSX
+80,Brighthouse Financial Inc,"Charlotte, North Carolina",Life & Health Insurance,Financials,BHF
+81,Bristol-Myers Squibb,"New York, New York",Health Care Distributors,Health Care,BMY
+82,Broadcom,"San Jose, California",Semiconductors,Information Technology,AVGO
+83,Broadridge Financial Solutions,"Lake Success, New York",Data Processing & Outsourced Services,Information Technology,BR
+84,Brown-Forman Corp.,"Louisville, Kentucky",Distillers & Vintners,Consumer Staples,BF-B
+85,C. H. Robinson Worldwide,"Eden Prairie, Minnesota",Air Freight & Logistics,Industrials,CHRW
+86,Cabot Oil & Gas,"Houston, Texas",Oil & Gas Exploration & Production,Energy,COG
+87,Cadence Design Systems,"San Jose, California",Application Software,Information Technology,CDNS
+88,Campbell Soup,"Camden, New Jersey",Packaged Foods & Meats,Consumer Staples,CPB
+89,Capital One Financial,"Tysons Corner, Virginia",Consumer Finance,Financials,COF
+90,Capri Holdings,"New York, New York","Apparel, Accessories & Luxury Goods",Consumer Discretionary,CPRI
+91,Cardinal Health Inc.,"Dublin, Ohio",Health Care Distributors,Health Care,CAH
+92,Carmax Inc,"Richmond, Virginia",Specialty Stores,Consumer Discretionary,KMX
+93,Carnival Corp.,"Miami, Florida","Hotels, Resorts & Cruise Lines",Consumer Discretionary,CCL
+94,Caterpillar Inc.,"Peoria, Illinois",Construction Machinery & Heavy Trucks,Industrials,CAT
+95,Cboe Global Markets,"Chicago, Illinois",Financial Exchanges & Data,Financials,CBOE
+96,CBRE Group,"Los Angeles, California",Real Estate Services,Real Estate,CBRE
+97,CBS Corp.,"New York, New York",Broadcasting,Communication Services,CBS
+98,Celanese Corp.,"Irving, Texas",Specialty Chemicals,Materials,CE
+99,Celgene Corp.,"Summit, New Jersey",Biotechnology,Health Care,CELG
+100,Centene Corporation,"St Louis, Missouri",Managed Health Care,Health Care,CNC
+101,CenterPoint Energy,"Houston, Texas",Multi-Utilities,Utilities,CNP
+102,CenturyLink Inc,"Monroe, Louisiana",Integrated Telecommunication Services,Communication Services,CTL
+103,Cerner,"North Kansas City, Missouri",Health Care Technology,Health Care,CERN
+104,CF Industries Holdings Inc,"Deerfield, Illinois",Fertilizers & Agricultural Chemicals,Materials,CF
+105,Charles Schwab Corporation,"San Francisco, California",Investment Banking & Brokerage,Financials,SCHW
+106,Charter Communications,"Stamford, Connecticut",Cable & Satellite,Communication Services,CHTR
+107,Chevron Corp.,"San Ramon, California",Integrated Oil & Gas,Energy,CVX
+108,Chipotle Mexican Grill,"Denver, Colorado",Restaurants,Consumer Discretionary,CMG
+109,Chubb Limited,"Zurich, Switzerland",Property & Casualty Insurance,Financials,CB
+110,Church & Dwight,"Ewing, New Jersey",Household Products,Consumer Staples,CHD
+111,CIGNA Corp.,"Bloomfield, Connecticut",Managed Health Care,Health Care,CI
+112,Cimarex Energy,"Denver, Colorado",Oil & Gas Exploration & Production,Energy,XEC
+113,Cincinnati Financial,"Fairfield, Ohio",Property & Casualty Insurance,Financials,CINF
+114,Cintas Corporation,"Mason, Ohio",Diversified Support Services,Industrials,CTAS
+115,Cisco Systems,"San Jose, California",Communications Equipment,Information Technology,CSCO
+116,Citigroup Inc.,"New York, New York",Diversified Banks,Financials,C
+117,Citizens Financial Group,"Providence, Rhode Island",Regional Banks,Financials,CFG
+118,Citrix Systems,"Fort Lauderdale, Florida",Internet Software & Services,Information Technology,CTXS
+119,The Clorox Company,"Oakland, California",Household Products,Consumer Staples,CLX
+120,CME Group Inc.,"Chicago, Illinois",Financial Exchanges & Data,Financials,CME
+121,CMS Energy,"Jackson, Michigan",Multi-Utilities,Utilities,CMS
+122,Coca-Cola Company (The),"Atlanta, Georgia",Soft Drinks,Consumer Staples,KO
+123,Cognizant Technology Solutions,"Teaneck, New Jersey",IT Consulting & Other Services,Information Technology,CTSH
+124,Colgate-Palmolive,"New York, New York",Household Products,Consumer Staples,CL
+125,Comcast Corp.,"Philadelphia, Pennsylvania",Cable & Satellite,Communication Services,CMCSA
+126,Comerica Inc.,"Dallas, Texas",Diversified Banks,Financials,CMA
+127,Conagra Brands,"Chicago, Illinois",Packaged Foods & Meats,Consumer Staples,CAG
+128,Concho Resources,"Midland, Texas",Oil & Gas Exploration & Production,Energy,CXO
+129,ConocoPhillips,"Houston, Texas",Oil & Gas Exploration & Production,Energy,COP
+130,Consolidated Edison,"New York, New York",Electric Utilities,Utilities,ED
+131,Constellation Brands,"Victor, New York",Distillers & Vintners,Consumer Staples,STZ
+132,The Cooper Companies,"Pleasanton, California",Health Care Supplies,Health Care,COO
+133,Copart Inc,"Dallas, Texas",Diversified Support Services,Industrials,CPRT
+134,Corning Inc.,"Corning, New York",Electronic Components,Information Technology,GLW
+135,Costco Wholesale Corp.,"Issaquah, Washington",Hypermarkets & Super Centers,Consumer Staples,COST
+136,"Coty, Inc","New York, New York",Personal Products,Consumer Staples,COTY
+137,Crown Castle International Corp.,"Houston, Texas",Specialized REITs,Real Estate,CCI
+138,CSX Corp.,"Jacksonville, Florida",Railroads,Industrials,CSX
+139,Cummins Inc.,"Columbus, Indiana",Industrial Machinery,Industrials,CMI
+140,CVS Health,"Woonsocket, Rhode Island",Health Care Services,Health Care,CVS
+141,D. R. Horton,"Fort Worth, Texas",Homebuilding,Consumer Discretionary,DHI
+142,Danaher Corp.,"Washington, D.C.",Health Care Equipment,Health Care,DHR
+143,Darden Restaurants,"Orlando, Florida",Restaurants,Consumer Discretionary,DRI
+144,DaVita Inc.,"Denver, Colorado",Health Care Facilities,Health Care,DVA
+145,Deere & Co.,"Moline, Illinois",Agricultural & Farm Machinery,Industrials,DE
+146,Delta Air Lines Inc.,"Atlanta, Georgia",Airlines,Industrials,DAL
+147,Dentsply Sirona,"York, Pennsylvania",Health Care Supplies,Health Care,XRAY
+148,Devon Energy Corp.,"Oklahoma City, Oklahoma",Oil & Gas Exploration & Production,Energy,DVN
+149,Diamondback Energy Inc,"Midland, Texas",Oil & Gas Exploration & Production,Energy,FANG
+150,Digital Realty Trust Inc,"San Francisco, California",Specialized REITs,Real Estate,DLR
+151,Discover Financial Services,"Riverwoods, Illinois",Consumer Finance,Financials,DFS
+152,Discovery Inc. Class A,"Silver Spring, Maryland",Broadcasting,Communication Services,DISCA
+153,Discovery Inc. Class C,"Silver Spring, Maryland",Broadcasting,Communication Services,DISCK
+154,Dish Network,"Meridian, Colorado",Cable & Satellite,Communication Services,DISH
+155,Dollar General,"Goodlettsville, Tennessee",General Merchandise Stores,Consumer Discretionary,DG
+156,Dollar Tree,"Chesapeake, Virginia",General Merchandise Stores,Consumer Discretionary,DLTR
+157,Dominion Energy,"Richmond, Virginia",Electric Utilities,Utilities,D
+158,Dover Corp.,"Downers Grove, Illinois",Industrial Machinery,Industrials,DOV
+159,DowDuPont,"Midland, Michigan",Diversified Chemicals,Materials,DWDP
+160,DTE Energy Co.,"Detroit, Michigan",Multi-Utilities,Utilities,DTE
+161,Duke Realty Corp,"Indianapolis, Indiana",Industrial REITs,Real Estate,DRE
+162,Duke Energy,"Charlotte, North Carolina",Electric Utilities,Utilities,DUK
+163,DXC Technology,"Tysons Corner, Virginia",IT Consulting & Other Services,Information Technology,DXC
+164,E*Trade,"New York, New York",Investment Banking & Brokerage,Financials,ETFC
+165,Eastman Chemical,"Kingsport, Tennessee",Diversified Chemicals,Materials,EMN
+166,Eaton Corporation,"Dublin, Ireland",Electrical Components & Equipment,Industrials,ETN
+167,eBay Inc.,"San Jose, California",Internet & Direct Marketing Retail,Consumer Discretionary,EBAY
+168,Ecolab Inc.,"St. Paul, Minnesota",Specialty Chemicals,Materials,ECL
+169,Edison Int'l,"Rosemead, California",Electric Utilities,Utilities,EIX
+170,Edwards Lifesciences,"Irvine, California",Health Care Equipment,Health Care,EW
+171,Electronic Arts,"Redwood City, California",Interactive Home Entertainment,Communication Services,EA
+172,Emerson Electric Company,"Ferguson, Missouri",Electrical Components & Equipment,Industrials,EMR
+173,Entergy Corp.,"New Orleans, Louisiana",Electric Utilities,Utilities,ETR
+174,EOG Resources,"Houston, Texas",Oil & Gas Exploration & Production,Energy,EOG
+175,Equifax Inc.,"Atlanta, Georgia",Research & Consulting Services,Industrials,EFX
+176,Equinix,"Redwood City, California",Specialized REITs,Real Estate,EQIX
+177,Equity Residential,"Chicago, Illinois",Residential REITs,Real Estate,EQR
+178,"Essex Property Trust, Inc.","Palo Alto, California",Residential REITs,Real Estate,ESS
+179,Estee Lauder Cos.,"New York, New York",Personal Products,Consumer Staples,EL
+180,Evergy,"Kansas City, Missouri",Electric Utilities,Utilities,EVRG
+181,Eversource Energy,"Springfield, Massachusetts",Multi-Utilities,Utilities,ES
+182,Everest Re Group Ltd.,"Hamilton, Bermuda",Reinsurance,Financials,RE
+183,Exelon Corp.,"Chicago, Illinois",Multi-Utilities,Utilities,EXC
+184,Expedia Group,"Bellevue, Washington",Internet & Direct Marketing Retail,Consumer Discretionary,EXPE
+185,Expeditors,"Seattle, Washington",Air Freight & Logistics,Industrials,EXPD
+186,Extra Space Storage,"Salt Lake City, Utah",Specialized REITs,Real Estate,EXR
+187,Exxon Mobil Corp.,"Irving, Texas",Integrated Oil & Gas,Energy,XOM
+188,F5 Networks,"Seattle, Washington",Communications Equipment,Information Technology,FFIV
+189,"Facebook, Inc.","Menlo Park, California",Interactive Media & Services,Communication Services,FB
+190,Fastenal Co,"Winona, Minnesota",Building Products,Industrials,FAST
+191,Federal Realty Investment Trust,"Rockville, Maryland",Retail REITs,Real Estate,FRT
+192,FedEx Corporation,"Memphis, Tennessee",Air Freight & Logistics,Industrials,FDX
+193,Fidelity National Information Services,"Jacksonville, Florida",Internet Software & Services,Information Technology,FIS
+194,Fifth Third Bancorp,"Cincinnati, Ohio",Regional Banks,Financials,FITB
+195,FirstEnergy Corp,"Akron, Ohio",Electric Utilities,Utilities,FE
+196,First Republic Bank,"San Francisco, California",Regional Banks,Financials,FRC
+197,Fiserv Inc,"Brookfield, Wisconsin",Internet Software & Services,Information Technology,FISV
+198,FleetCor Technologies Inc,"Norcross, Georgia",Data Processing & Outsources Services,Information Technology,FLT
+199,FLIR Systems,"Wilsonville, Oregon",Electronic Equipment & Instruments,Information Technology,FLIR
+200,Flowserve Corporation,"Irving, Texas",Industrial Machinery,Industrials,FLS
+201,Fluor Corp.,"Irving, Texas",Construction & Engineering,Industrials,FLR
+202,FMC Corporation,"Philadelphia, Pennsylvania",Fertilizers & Agricultural Chemicals,Materials,FMC
+203,Foot Locker Inc,"New York, New York",Apparel Retail,Consumer Discretionary,FL
+204,Ford Motor,"Dearborn, Michigan",Automobile Manufacturers,Consumer Discretionary,F
+205,Fortinet,"Sunnyvale, California",Systems Software,Information Technology,FTNT
+206,Fortive Corp,"Everett, Washington",Industrial Machinery,Industrials,FTV
+207,Fortune Brands Home & Security,"Deerfield, Illinois",Building Products,Industrials,FBHS
+208,Franklin Resources,"San Mateo, California",Asset Management & Custody Banks,Financials,BEN
+209,Freeport-McMoRan Inc.,"Phoenix, Arizona",Copper,Materials,FCX
+210,Gap Inc.,"San Francisco, California",Apparel Retail,Consumer Discretionary,GPS
+211,Garmin Ltd.,"Schaffhausen, Switzerland",Consumer Electronics,Consumer Discretionary,GRMN
+212,Gartner Inc,"Stamford, Connecticut",IT Consulting & Other Services,Information Technology,IT
+213,General Dynamics,"Falls Church, Virginia",Aerospace & Defense,Industrials,GD
+214,General Electric,"Boston, Massachusetts",Industrial Conglomerates,Industrials,GE
+215,General Mills,"Golden Valley, Minnesota",Packaged Foods & Meats,Consumer Staples,GIS
+216,General Motors,"Detroit, Michigan",Automobile Manufacturers,Consumer Discretionary,GM
+217,Genuine Parts,"Atlanta, Georgia",Specialty Stores,Consumer Discretionary,GPC
+218,Gilead Sciences,"Foster City, California",Biotechnology,Health Care,GILD
+219,Global Payments Inc.,"Atlanta, Georgia",Data Processing & Outsourced Services,Information Technology,GPN
+220,Goldman Sachs Group,"New York, New York",Investment Banking & Brokerage,Financials,GS
+221,Goodyear Tire & Rubber,"Akron, Ohio",Tires & Rubber,Consumer Discretionary,GT
+222,Grainger (W.W.) Inc.,"Lake Forest, Illinois",Industrial Machinery,Industrials,GWW
+223,Halliburton Co.,"Houston, Texas",Oil & Gas Equipment & Services,Energy,HAL
+224,Hanesbrands Inc,"Winston-Salem, North Carolina","Apparel, Accessories & Luxury Goods",Consumer Discretionary,HBI
+225,Harley-Davidson,"Milwaukee, Wisconsin",Motorcycle Manufacturers,Consumer Discretionary,HOG
+226,Harris Corporation,"Melbourne, Florida",Aerospace & Defense,Industrials,HRS
+227,Hartford Financial Svc.Gp.,"Hartford, Connecticut",Property & Casualty Insurance,Financials,HIG
+228,Hasbro Inc.,"Pawtucket, Rhode Island",Leisure Products,Consumer Discretionary,HAS
+229,HCA Holdings,"Nashville, Tennessee",Health Care Facilities,Health Care,HCA
+230,HCP Inc.,"Long Beach, California",Health Care REITs,Real Estate,HCP
+231,Helmerich & Payne,"Tulsa, Oklahoma[7]",Oil & Gas Drilling,Energy,HP
+232,Henry Schein,"Melville, New York",Health Care Distributors,Health Care,HSIC
+233,The Hershey Company,"Hershey, Pennsylvania",Packaged Foods & Meats,Consumer Staples,HSY
+234,Hess Corporation,"New York, New York",Integrated Oil & Gas,Energy,HES
+235,Hewlett Packard Enterprise,"Palo Alto, California","Technology Hardware, Storage & Peripherals",Information Technology,HPE
+236,Hilton Worldwide Holdings Inc,"Tysons Corner, Virginia","Hotels, Resorts & Cruise Lines",Consumer Discretionary,HLT
+237,HollyFrontier Corp,"Dallas, Texas",Oil & Gas Refining & Marketing,Energy,HFC
+238,Hologic,"Marlborough, Massachusetts",Health Care Equipment,Health Care,HOLX
+239,Home Depot,"Atlanta, Georgia",Home Improvement Retail,Consumer Discretionary,HD
+240,Honeywell Int'l Inc.,"Morristown, New Jersey",Industrial Conglomerates,Industrials,HON
+241,Hormel Foods Corp.,"Austin, Minnesota",Packaged Foods & Meats,Consumer Staples,HRL
+242,Host Hotels & Resorts,"Bethesda, Maryland",Hotel & Resort REITs,Real Estate,HST
+243,HP Inc.,"Palo Alto, California","Technology Hardware, Storage & Peripherals",Information Technology,HPQ
+244,Humana Inc.,"Louisville, Kentucky",Managed Health Care,Health Care,HUM
+245,Huntington Bancshares,"Columbus, Ohio",Regional Banks,Financials,HBAN
+246,Huntington Ingalls Industries,"Newport News, Virginia",Aerospace & Defense,Industrials,HII
+247,IDEXX Laboratories,"Westbrook, Maine",Health Care Equipment,Health Care,IDXX
+248,IHS Markit Ltd.,"London, United Kingdom",Research & Consulting Services,Industrials,INFO
+249,Illinois Tool Works,"Glenview, Illinois",Industrial Machinery,Industrials,ITW
+250,Illumina Inc,"San Diego, California",Life Sciences Tools & Services,Health Care,ILMN
+251,Ingersoll-Rand PLC,"Dublin, Ireland",Industrial Machinery,Industrials,IR
+252,Intel Corp.,"Santa Clara, California",Semiconductors,Information Technology,INTC
+253,Intercontinental Exchange,"Atlanta, Georgia",Financial Exchanges & Data,Financials,ICE
+254,International Business Machines,"Armonk, New York",IT Consulting & Other Services,Information Technology,IBM
+255,Incyte,"Wilmington, Delaware",Biotechnology,Health Care,INCY
+256,International Paper,"Memphis, Tennessee",Paper Packaging,Materials,IP
+257,Interpublic Group,"New York, New York",Advertising,Communication Services,IPG
+258,Intl Flavors & Fragrances,"New York, New York",Specialty Chemicals,Materials,IFF
+259,Intuit Inc.,"Mountain View, California",Internet Software & Services,Information Technology,INTU
+260,Intuitive Surgical Inc.,"Sunnyvale, California",Health Care Equipment,Health Care,ISRG
+261,Invesco Ltd.,"Atlanta, Georgia",Asset Management & Custody Banks,Financials,IVZ
+262,IPG Photonics Corp.,"Oxford, Massachusetts",Electronic Manufacturing Services,Information Technology,IPGP
+263,IQVIA Holdings Inc.,"Durham, North Carolina",Life Sciences Tools & Service,Health Care,IQV
+264,Iron Mountain Incorporated,"Boston, Massachusetts",Specialized REITs,Real Estate,IRM
+265,Jack Henry & Associates Inc,"Monett, Missouri",Data Processing & Outsourced Services,Information Technology,JKHY
+266,Jacobs Engineering Group,"Pasadena, California",Construction & Engineering,Industrials,JEC
+267,J. B. Hunt Transport Services,"Lowell, Arkansas",Trucking,Industrials,JBHT
+268,Jefferies Financial Group,"New York, New York",Multi-Sector Holdings,Financials,JEF
+269,JM Smucker,"Orrville, Ohio",Packaged Foods & Meats,Consumer Staples,SJM
+270,Johnson & Johnson,"New Brunswick, New Jersey",Health Care Equipment,Health Care,JNJ
+271,Johnson Controls International,"Cork, Ireland",Building Products,Industrials,JCI
+272,JPMorgan Chase & Co.,"New York, New York",Diversified Banks,Financials,JPM
+273,Juniper Networks,"Sunnyvale, California",Communications Equipment,Information Technology,JNPR
+274,Kansas City Southern,"Kansas City, Missouri",Railroads,Industrials,KSU
+275,Kellogg Co.,"Battle Creek, Michigan",Packaged Foods & Meats,Consumer Staples,K
+276,KeyCorp,"Cleveland, Ohio",Regional Banks,Financials,KEY
+277,Keysight Technologies,"Santa Rosa, California",Electronic Equipment & Instruments,Information Technology,KEYS
+278,Kimberly-Clark,"Irving, Texas",Household Products,Consumer Staples,KMB
+279,Kimco Realty,"New Hyde Park, New York",Retail REITs,Real Estate,KIM
+280,Kinder Morgan,"Houston, Texas",Oil & Gas Storage & Transportation,Energy,KMI
+281,KLA-Tencor Corp.,"Milpitas, California",Semiconductor Equipment,Information Technology,KLAC
+282,Kohl's Corp.,"Menomonee Falls, Wisconsin",General Merchandise Stores,Consumer Discretionary,KSS
+283,Kraft Heinz Co,"Pittsburgh, Pennsylvania",Packaged Foods & Meats,Consumer Staples,KHC
+284,Kroger Co.,"Cincinnati, Ohio",Food Retail,Consumer Staples,KR
+285,L Brands Inc.,"Columbus, Ohio",Apparel Retail,Consumer Discretionary,LB
+286,L-3 Communications Holdings,"New York, New York",Aerospace & Defense,Industrials,LLL
+287,Laboratory Corp. of America Holding,"Burlington, North Carolina",Health Care Services,Health Care,LH
+288,Lam Research,"Fremont, California",Semiconductor Equipment,Information Technology,LRCX
+289,Lamb Weston Holdings Inc,"Eagle, Idaho",Packaged Foods & Meats,Consumer Staples,LW
+290,Leggett & Platt,"Carthage, Missouri",Home Furnishings,Consumer Discretionary,LEG
+291,Lennar Corp.,"Miami, Florida",Homebuilding,Consumer Discretionary,LEN
+292,Lilly (Eli) & Co.,"Indianapolis, Indiana",Pharmaceuticals,Health Care,LLY
+293,Lincoln National,"Radnor, Pennsylvania",Multi-line Insurance,Financials,LNC
+294,Linde plc,"Guildford, Surrey, United Kingdom",Industrial Gases,Materials,LIN
+295,LKQ Corporation,"Chicago, Illinois",Distributors,Consumer Discretionary,LKQ
+296,Lockheed Martin Corp.,"Bethesda, Maryland",Aerospace & Defense,Industrials,LMT
+297,Loews Corp.,"New York, New York",Multi-line Insurance,Financials,L
+298,Lowe's Cos.,"Mooresville, North Carolina",Home Improvement Retail,Consumer Discretionary,LOW
+299,LyondellBasell,"Rotterdam, Netherlands",Specialty Chemicals,Materials,LYB
+300,M&T Bank Corp.,"Buffalo, New York",Regional Banks,Financials,MTB
+301,Macerich,"Santa Monica, California",Retail REITs,Real Estate,MAC
+302,Macy's Inc.,"Cincinnati, Ohio",Department Stores,Consumer Discretionary,M
+303,Marathon Oil Corp.,"Houston, Texas",Oil & Gas Exploration & Production,Energy,MRO
+304,Marathon Petroleum,"Findlay, Ohio",Oil & Gas Refining & Marketing,Energy,MPC
+305,Marriott Int'l.,"Bethesda, Maryland","Hotels, Resorts & Cruise Lines",Consumer Discretionary,MAR
+306,Marsh & McLennan,"New York, New York",Insurance Brokers,Financials,MMC
+307,Martin Marietta Materials,"Raleigh, North Carolina",Construction Materials,Materials,MLM
+308,Masco Corp.,"Taylor, Michigan",Building Products,Industrials,MAS
+309,Mastercard Inc.,"Harrison, New York",Internet Software & Services,Information Technology,MA
+310,Mattel Inc.,"El Segundo, California",Leisure Products,Consumer Discretionary,MAT
+311,McCormick & Co.,"Sparks, Maryland",Packaged Foods & Meats,Consumer Staples,MKC
+312,Maxim Integrated Products Inc,"San Jose, California",Semiconductors,Information Technology,MXIM
+313,McDonald's Corp.,"Chicago, Illinois",Restaurants,Consumer Discretionary,MCD
+314,McKesson Corp.,"San Francisco, California",Health Care Distributors,Health Care,MCK
+315,Medtronic plc,"Dublin, Ireland",Health Care Equipment,Health Care,MDT
+316,Merck & Co.,"Whitehouse Station, New Jersey",Pharmaceuticals,Health Care,MRK
+317,MetLife Inc.,"New York, New York",Life & Health Insurance,Financials,MET
+318,Mettler Toledo,"Columbus, Ohio",Life Sciences Tools & Services,Health Care,MTD
+319,MGM Resorts International,"Paradise, Nevada",Casinos & Gaming,Consumer Discretionary,MGM
+320,Microchip Technology,"Chandler, Arizona",Semiconductors,Information Technology,MCHP
+321,Micron Technology,"Boise, Idaho",Semiconductors,Information Technology,MU
+322,Microsoft Corp.,"Redmond, Washington",Systems Software,Information Technology,MSFT
+323,Mid-America Apartments,"Memphis, Tennessee",Residential REITs,Real Estate,MAA
+324,Mohawk Industries,"Amsterdam, New York",Home Furnishings,Consumer Discretionary,MHK
+325,Molson Coors Brewing Company,"Denver, Colorado",Brewers,Consumer Staples,TAP
+326,Mondelez International,"Northfield, Illinois",Packaged Foods & Meats,Consumer Staples,MDLZ
+327,Monster Beverage,"Corona, California",Soft Drinks,Consumer Staples,MNST
+328,Moody's Corp,"New York, New York",Financial Exchanges & Data,Financials,MCO
+329,Morgan Stanley,"New York, New York",Investment Banking & Brokerage,Financials,MS
+330,The Mosaic Company,"Plymouth, Minnesota",Fertilizers & Agricultural Chemicals,Materials,MOS
+331,Motorola Solutions Inc.,"Schaumburg, Illinois",Communications Equipment,Information Technology,MSI
+332,MSCI Inc,"New York, New York",Financial Exchanges & Data,Financials,MSCI
+333,Mylan N.V.,"Amsterdam, Netherlands",Pharmaceuticals,Health Care,MYL
+334,"Nasdaq, Inc.","New York, New York",Financial Exchanges & Data,Financials,NDAQ
+335,National Oilwell Varco Inc.,"Houston, Texas",Oil & Gas Equipment & Services,Energy,NOV
+336,Nektar Therapeutics,"San Francisco, California",Pharmaceuticals,Health Care,NKTR
+337,NetApp,"Sunnyvale, California",Internet Software & Services,Information Technology,NTAP
+338,Netflix Inc.,"Los Gatos, California",Movies & Entertainment,Communication Services,NFLX
+339,Newell Brands,"Sandy Springs, Georgia",Housewares & Specialties,Consumer Discretionary,NWL
+340,Newfield Exploration Co,"Houston, Texas",Oil & Gas Exploration & Production,Energy,NFX
+341,Newmont Mining Corporation,"Denver, Colorado",Gold,Materials,NEM
+342,News Corp. Class A,"New York, New York",Publishing,Communication Services,NWSA
+343,News Corp. Class B,"New York, New York",Publishing,Communication Services,NWS
+344,NextEra Energy,"Juno Beach, Florida",Multi-Utilities,Utilities,NEE
+345,Nielsen Holdings,"New York, New York",Research & Consulting Services,Industrials,NLSN
+346,Nike,"Washington County, Oregon","Apparel, Accessories & Luxury Goods",Consumer Discretionary,NKE
+347,NiSource Inc.,"Merrillville, Indiana",Multi-Utilities,Utilities,NI
+348,Noble Energy Inc,"Houston, Texas",Oil & Gas Exploration & Production,Energy,NBL
+349,Nordstrom,"Seattle, Washington",Department Stores,Consumer Discretionary,JWN
+350,Norfolk Southern Corp.,"Norfolk, Virginia",Railroads,Industrials,NSC
+351,Northern Trust Corp.,"Chicago, Illinois",Asset Management & Custody Banks,Financials,NTRS
+352,Northrop Grumman Corp.,"West Falls Church, Virginia",Aerospace & Defense,Industrials,NOC
+353,Norwegian Cruise Line,"Miami, Florida","Hotels, Resorts & Cruise Lines",Consumer Discretionary,NCLH
+354,NRG Energy,"Princeton, New Jersey",Independent Power Producers & Energy Traders,Utilities,NRG
+355,Nucor Corp.,"Charlotte, North Carolina",Steel,Materials,NUE
+356,Nvidia Corporation,"Santa Clara, California",Semiconductors,Information Technology,NVDA
+357,O'Reilly Automotive,"Springfield, Missouri",Specialty Stores,Consumer Discretionary,ORLY
+358,Occidental Petroleum,"Los Angeles, California",Oil & Gas Exploration & Production,Energy,OXY
+359,Omnicom Group,"New York, New York",Advertising,Communication Services,OMC
+360,ONEOK,"Tulsa, Oklahoma",Oil & Gas Storage & Transportation,Energy,OKE
+361,Oracle Corp.,"Redwood Shores, California",Application Software,Information Technology,ORCL
+362,PACCAR Inc.,"Bellevue, Washington",Construction Machinery & Heavy Trucks,Industrials,PCAR
+363,Packaging Corporation of America,"Lake Forest, Illinois",Paper Packaging,Materials,PKG
+364,Parker-Hannifin,"Cleveland, Ohio",Industrial Machinery,Industrials,PH
+365,Paychex Inc.,"Penfield, New York",Internet Software & Services,Information Technology,PAYX
+366,PayPal,"San Jose, California",Data Processing & Outsourced Services,Information Technology,PYPL
+367,Pentair plc,"Worsley, UK",Industrial Machinery,Industrials,PNR
+368,People's United Financial,"Bridgeport, Connecticut",Thrifts & Mortgage Finance,Financials,PBCT
+369,PepsiCo Inc.,"Purchase, New York",Soft Drinks,Consumer Staples,PEP
+370,PerkinElmer,"Waltham, Massachusetts",Health Care Equipment,Health Care,PKI
+371,Perrigo,"Dublin, Ireland",Pharmaceuticals,Health Care,PRGO
+372,Pfizer Inc.,"New York, New York",Pharmaceuticals,Health Care,PFE
+373,Philip Morris International,"New York, New York",Tobacco,Consumer Staples,PM
+374,Phillips 66,"Houston, Texas",Oil & Gas Refining & Marketing,Energy,PSX
+375,Pinnacle West Capital,"Phoenix, Arizona",Multi-Utilities,Utilities,PNW
+376,Pioneer Natural Resources,"Irving, Texas",Oil & Gas Exploration & Production,Energy,PXD
+377,PNC Financial Services,"Pittsburgh, Pennsylvania",Regional Banks,Financials,PNC
+378,Polo Ralph Lauren Corp.,"New York, New York","Apparel, Accessories & Luxury Goods",Consumer Discretionary,RL
+379,PPG Industries,"Pittsburgh, Pennsylvania",Specialty Chemicals,Materials,PPG
+380,PPL Corp.,"Allentown, Pennsylvania",Electric Utilities,Utilities,PPL
+381,Principal Financial Group,"Des Moines, Iowa",Life & Health Insurance,Financials,PFG
+382,Procter & Gamble,"Cincinnati, Ohio",Personal Products,Consumer Staples,PG
+383,Progressive Corp.,"Mayfield Village, Ohio",Property & Casualty Insurance,Financials,PGR
+384,Prologis,"San Francisco, California",Industrial REITs,Real Estate,PLD
+385,Prudential Financial,"Newark, New Jersey",Life & Health Insurance,Financials,PRU
+386,Public Serv. Enterprise Inc.,"Newark, New Jersey",Electric Utilities,Utilities,PEG
+387,Public Storage,"Glendale, California",Specialized REITs,Real Estate,PSA
+388,Pulte Homes Inc.,"Atlanta, Georgia",Homebuilding,Consumer Discretionary,PHM
+389,PVH Corp.,"New York, New York","Apparel, Accessories & Luxury Goods",Consumer Discretionary,PVH
+390,Qorvo,"Greensboro, North Carolina",Semiconductors,Information Technology,QRVO
+391,Quanta Services Inc.,"Houston, Texas",Construction & Engineering,Industrials,PWR
+392,QUALCOMM Inc.,"San Diego, California",Semiconductors,Information Technology,QCOM
+393,Quest Diagnostics,"Madison, New Jersey",Health Care Services,Health Care,DGX
+394,Raymond James Financial Inc.,"St. Petersburg, Florida",Investment Banking & Brokerage,Financials,RJF
+395,Raytheon Co.,"Waltham, Massachusetts",Aerospace & Defense,Industrials,RTN
+396,Realty Income Corporation,"San Diego, California",Retail REITs,Real Estate,O
+397,Red Hat Inc.,"Raleigh, North Carolina",Systems Software,Information Technology,RHT
+398,Regency Centers Corporation,"Jacksonville, Florida",Retail REITs,Real Estate,REG
+399,Regeneron,"Tarrytown, New York",Biotechnology,Health Care,REGN
+400,Regions Financial Corp.,"Birmingham, Alabama",Regional Banks,Financials,RF
+401,Republic Services Inc,"Phoenix, Arizona",Environmental & Facilities Services,Industrials,RSG
+402,ResMed,"San Diego, California",Health Care Equipment,Health Care,RMD
+403,Robert Half International,"Menlo Park, California",Human Resource & Employment Services,Industrials,RHI
+404,Rockwell Automation Inc.,"Milwaukee, Wisconsin",Electrical Components & Equipment,Industrials,ROK
+405,Rollins Inc.,"Atlanta, Georgia",Environmental & Facilities Services,Industrials,ROL
+406,Roper Technologies,"Sarasota, Florida",Industrial Conglomerates,Industrials,ROP
+407,Ross Stores,"Pleasanton, California",Apparel Retail,Consumer Discretionary,ROST
+408,Royal Caribbean Cruises Ltd,"Miami, Florida","Hotels, Resorts & Cruise Lines",Consumer Discretionary,RCL
+409,Salesforce.com,"San Francisco, California",Internet Software & Services,Information Technology,CRM
+410,SBA Communications,"Boca Raton, Florida",Specialized REITs,Real Estate,SBAC
+411,Schlumberger Ltd.,"Curaçao, Kingdom of the Netherlands",Oil & Gas Equipment & Services,Energy,SLB
+412,Seagate Technology,"Dublin, Ireland","Technology Hardware, Storage & Peripherals",Information Technology,STX
+413,Sealed Air,"Elmwood Park, New Jersey",Paper Packaging,Materials,SEE
+414,Sempra Energy,"San Diego, California",Multi-Utilities,Utilities,SRE
+415,Sherwin-Williams,"Cleveland, Ohio",Specialty Chemicals,Materials,SHW
+416,Simon Property Group Inc,"Indianapolis, Indiana",Retail REITs,Real Estate,SPG
+417,Skyworks Solutions,"Woburn, Massachusetts",Semiconductors,Information Technology,SWKS
+418,SL Green Realty,"New York, New York",Office REITs,Real Estate,SLG
+419,Snap-on,"Kenosha, Wisconsin",Industrial Machinery,Industrials,SNA
+420,Southern Co.,"Atlanta, Georgia",Electric Utilities,Utilities,SO
+421,Southwest Airlines,"Dallas, Texas",Airlines,Industrials,LUV
+422,"S&P Global, Inc.","New York, New York",Financial Exchanges & Data,Financials,SPGI
+423,Stanley Black & Decker,"New Britain, Connecticut",Industrial Machinery,Industrials,SWK
+424,Starbucks Corp.,"Seattle, Washington",Restaurants,Consumer Discretionary,SBUX
+425,State Street Corp.,"Boston, Massachusetts",Asset Management & Custody Banks,Financials,STT
+426,Stryker Corp.,"Kalamazoo, Michigan",Health Care Equipment,Health Care,SYK
+427,SunTrust Banks,"Atlanta, Georgia",Regional Banks,Financials,STI
+428,SVB Financial,"Santa Clara, California",Regional Banks,Financials,SIVB
+429,Symantec Corp.,"Mountain View, California",Application Software,Information Technology,SYMC
+430,Synchrony Financial,"Stamford, Connecticut",Consumer Finance,Financials,SYF
+431,Synopsys Inc.,"Mountain View, California",Application Software,Information Technology,SNPS
+432,Sysco Corp.,"Houston, Texas",Food Distributors,Consumer Staples,SYY
+433,T. Rowe Price Group,"Baltimore, Maryland",Asset Management & Custody Banks,Financials,TROW
+434,Take-Two Interactive,"New York, New York",Interactive Home Entertainment,Communication Services,TTWO
+435,"Tapestry, Inc.","New York, New York","Apparel, Accessories & Luxury Goods",Consumer Discretionary,TPR
+436,Target Corp.,"Minneapolis, Minnesota",General Merchandise Stores,Consumer Discretionary,TGT
+437,TE Connectivity Ltd.,"Schaffhausen, Switzerland",Electronic Manufacturing Services,Information Technology,TEL
+438,TechnipFMC,"London, United Kingdom",Oil & Gas Equipment & Services,Energy,FTI
+439,Teleflex Inc,"Wayne, Pennsylvania",Health Care Equipment,Health Care,TFX
+440,Texas Instruments,"Dallas, Texas",Semiconductors,Information Technology,TXN
+441,Textron Inc.,"Providence, Rhode Island",Aerospace & Defense,Industrials,TXT
+442,Thermo Fisher Scientific,"Waltham, Massachusetts",Health Care Equipment,Health Care,TMO
+443,Tiffany & Co.,"New York, New York","Apparel, Accessories & Luxury Goods",Consumer Discretionary,TIF
+444,"Twitter, Inc.","San Francisco, California",Interactive Media & Services,Communication Services,TWTR
+445,TJX Companies Inc.,"Framingham, Massachusetts",Apparel Retail,Consumer Discretionary,TJX
+446,Torchmark Corp.,"McKinney, Texas",Life & Health Insurance,Financials,TMK
+447,Total System Services,"Columbus, Georgia",Internet Software & Services,Information Technology,TSS
+448,Tractor Supply Company,"Brentwood, Tennessee",Specialty Stores,Consumer Discretionary,TSCO
+449,TransDigm Group,"Cleveland, Ohio",Aerospace & Defense,Industrials,TDG
+450,The Travelers Companies Inc.,"New York, New York",Property & Casualty Insurance,Financials,TRV
+451,TripAdvisor,"Newton, Massachusetts",Interactive Media & Services,Communication Services,TRIP
+452,Twenty-First Century Fox Class A,"New York, New York",Movies & Entertainment,Communication Services,FOXA
+453,Twenty-First Century Fox Class B,"New York, New York",Movies & Entertainment,Communication Services,FOX
+454,Tyson Foods,"Springdale, Arkansas",Packaged Foods & Meats,Consumer Staples,TSN
+455,UDR Inc,"Highlands Ranch, Colorado",Residential REITs,Real Estate,UDR
+456,Ulta Beauty,"Bolingbrook, Illinois",Specialty Stores,Consumer Discretionary,ULTA
+457,U.S. Bancorp,"Minneapolis, Minnesota",Diversified Banks,Financials,USB
+458,Under Armour Class A,"Baltimore, Maryland","Apparel, Accessories & Luxury Goods",Consumer Discretionary,UAA
+459,Under Armour Class C,"Baltimore, Maryland","Apparel, Accessories & Luxury Goods",Consumer Discretionary,UA
+460,Union Pacific,"Omaha, Nebraska",Railroads,Industrials,UNP
+461,United Continental Holdings,"Chicago, Illinois",Airlines,Industrials,UAL
+462,United Health Group Inc.,"Minnetonka, Minnesota",Managed Health Care,Health Care,UNH
+463,United Parcel Service,"Atlanta, Georgia",Air Freight & Logistics,Industrials,UPS
+464,"United Rentals, Inc.","Stamford, Connecticut",Trading Companies & Distributors,Industrials,URI
+465,United Technologies,"Hartford, Connecticut",Aerospace & Defense,Industrials,UTX
+466,"Universal Health Services, Inc.","King of Prussia, Pennsylvania",Health Care Facilities,Health Care,UHS
+467,Unum Group,"Chattanooga, Tennessee",Life & Health Insurance,Financials,UNM
+468,V.F. Corp.,"Greensboro, North Carolina","Apparel, Accessories & Luxury Goods",Consumer Discretionary,VFC
+469,Valero Energy,"San Antonio, Texas",Oil & Gas Refining & Marketing,Energy,VLO
+470,Varian Medical Systems,"Palo Alto, California",Health Care Equipment,Health Care,VAR
+471,Ventas Inc,"Chicago, Illinois",Health Care REITs,Real Estate,VTR
+472,Verisign Inc.,"Dulles, Virginia",Internet Services & Infrastructure,Information Technology,VRSN
+473,Verisk Analytics,"Jersey City, New Jersey",Research & Consulting Services,Industrials,VRSK
+474,Verizon Communications,"New York, New York",Integrated Telecommunication Services,"Communication Services
+",VZ
+475,Vertex Pharmaceuticals Inc,"Cambridge, Massachusetts",Biotechnology,Health Care,VRTX
+476,Viacom Inc.,"New York, New York",Movies & Entertainment,Communication Services,VIAB
+477,Visa Inc.,"San Francisco, California",Internet Software & Services,Information Technology,V
+478,Vornado Realty Trust,"New York, New York",Office REITs,Real Estate,VNO
+479,Vulcan Materials,"Birmingham, Alabama",Construction Materials,Materials,VMC
+480,Walmart,"Bentonville, Arkansas",Hypermarkets & Super Centers,Consumer Staples,WMT
+481,Walgreens Boots Alliance,"Deerfield, Illinois",Drug Retail,Consumer Staples,WBA
+482,The Walt Disney Company,"Burbank, California",Movies & Entertainment,Communication Services,DIS
+483,Waste Management Inc.,"Houston, Texas",Environmental & Facilities Services,Industrials,WM
+484,Waters Corporation,"Milford, Massachusetts",Health Care Distributors,Health Care,WAT
+485,Wec Energy Group Inc,"Milwaukee, Wisconsin",Electric Utilities,Utilities,WEC
+486,WellCare,"Tampa, Florida",Managed Health Care,Health Care,WCG
+487,Wells Fargo,"San Francisco, California",Diversified Banks,Financials,WFC
+488,Welltower Inc.,"Toledo, Ohio",Health Care REITs,Real Estate,WELL
+489,Western Digital,"Irvine, California","Technology Hardware, Storage & Peripherals",Information Technology,WDC
+490,Western Union Co,"Englewood, Colorado",Internet Software & Services,Information Technology,WU
+491,WestRock,"Richmond, Virginia",Paper Packaging,Materials,WRK
+492,Weyerhaeuser,"Federal Way, Washington",Specialized REITs,Real Estate,WY
+493,Whirlpool Corp.,"Benton Harbor, Michigan",Household Appliances,Consumer Discretionary,WHR
+494,Williams Cos.,"Tulsa, Oklahoma",Oil & Gas Storage & Transportation,Energy,WMB
+495,Willis Towers Watson,"London, United Kingdom",Insurance Brokers,Financials,WLTW
+496,Wynn Resorts Ltd,"Paradise, Nevada",Casinos & Gaming,Consumer Discretionary,WYNN
+497,Xcel Energy Inc,"Minneapolis, Minnesota",Multi-Utilities,Utilities,XEL
+498,Xerox,"Norwalk, Connecticut","Technology Hardware, Storage & Peripherals",Information Technology,XRX
+499,Xilinx,"San Jose, California",Semiconductors,Information Technology,XLNX
+500,Xylem Inc.,"White Plains, New York",Industrial Machinery,Industrials,XYL
+501,Yum! Brands Inc,"Louisville, Kentucky",Restaurants,Consumer Discretionary,YUM
+502,Zimmer Biomet Holdings,"Warsaw, Indiana",Health Care Equipment,Health Care,ZBH
+503,Zions Bancorp,"Salt Lake City, Utah",Regional Banks,Financials,ZION
+504,Zoetis,"Florham Park, New Jersey",Pharmaceuticals,Health Care,ZTS
