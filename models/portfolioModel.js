@@ -8,10 +8,12 @@ var portfolioSchema = new mongoose.Schema({
     stockInvested: Array, //the array will be stock Id's
     strategyType: String, 
     userGroupings: String,
-    user: [{
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "User"
-    }],
+    user: {
+           id: {
+                type: mongoose.Schema.Types.ObjectId,
+                ref: "User"
+            }
+        },
     stock: [{
         type: mongoose.Schema.Types.ObjectId,
         ref: "Stock"
