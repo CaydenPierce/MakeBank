@@ -147,3 +147,18 @@ strong {
     font-size: 12px;
     margin-top: -10px;
 }
+
+h4 {
+    color: black;
+    margin-top: 20px;
+}
+
+a {
+    color: #B10FCA;
+    display: block;
+}
+
+.stock-div {
+    margin-left: 300px;
+    margin-top: 50px;
+}
