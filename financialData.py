@@ -4,10 +4,25 @@ import csv
 import numpy as np
 import pandas
 
+'''
+Accidently used json.load() instead of .json(). Then I went crazy parsing shit to make it work. Don't make my mistake. To be fair it's 4am
+'''
+
 def getBeta(ticker):
+	try:
 	#beta call
-	beta = float(requests.get("https://api-v2.intrinio.com/data_point/{}/beta/number?api_key=OjFiOWUxMTJjMDMyOTdhZDVlNTc4ZDA2YmYxNTZhNmYw".format(ticker)).content)
+		beta = float(requests.get("https://api-v2.intrinio.com/data_point/{}/beta/number?api_key=OjFiOWUxMTJjMDMyOTdhZDVlNTc4ZDA2YmYxNTZhNmYw".format(ticker)).content)
+	except Exception:
+		return "NA"
 	return beta
+
+def getSector(ticker):
+	try:
+		#sector call
+		sector = requests.get("https://api-v2.intrinio.com/data_point/{}/sector?api_key=OjFiOWUxMTJjMDMyOTdhZDVlNTc4ZDA2YmYxNTZhNmYw".format(ticker)).content.decode("utf-8")
+	except Exception:
+		return "NA"
+	return sector
 
 def callBalanceSheet(ticker):
 	#balance sheet call
@@ -72,6 +87,20 @@ def getStockEquity(ticker):
 	#print(max)
 	return balanceSheet[ticker]["Total stockholders' equity"][ref]
 
+def getTotalAssets(ticker):
+	try:
+		sheetKeys = list(balanceSheet[ticker]["Total current assets"].keys())
+	except Exception:
+		return "NA"
+	max = 0
+	for i in range(len(sheetKeys)):
+		year = int(sheetKeys[i][:-3])
+		if (year > max) and not (balanceSheet[ticker]["Total current assets"][sheetKeys[i]] == ""):
+			ref = sheetKeys[i]
+			max = year
+	#print(max)
+	return balanceSheet[ticker]["Total current assets"][ref]
+
 def getNetIncome(ticker):
 	try:
 		sheetKeys = list(incomeSheet[ticker]["Net income"].keys())
@@ -122,7 +151,7 @@ sp500 = openTickers("./sp500")
 ROE = ""
 DTE = ""
 with open('financials.csv', 'a') as f:
-	f.write(",ticker, liabilities, equity, netincome, freecashflow, beta, ROE, debttoequity")
+	f.write(",ticker, liabilities, equity, netincome, freecashflow, beta, ROE, debttoequity, assets, sector" + '\n')
 	for i, ticker in enumerate(sp500):
 		print(ticker)
 		beta = getBeta(ticker)
@@ -138,4 +167,4 @@ with open('financials.csv', 'a') as f:
 			ROE = float(getNetIncome(ticker))/float(getStockEquity(ticker))
 		except Exception:
 			ROE = "NA"
-		f.write("{},{},{},{},{},{},{},{},{}\n".format(i, ticker, getLiab(ticker), getStockEquity(ticker), getNetIncome(ticker), getFreeCash(ticker), beta, ROE, DTE))
+		f.write("{},{},{},{},{},{},{},{},{},{},{}\n".format(i, ticker, getLiab(ticker), getStockEquity(ticker), getNetIncome(ticker), getFreeCash(ticker), beta, ROE, DTE, getTotalAssets(ticker), getSector(ticker)))
