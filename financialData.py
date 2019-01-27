@@ -1,13 +1,13 @@
 import requests
 import json
+import csv
+import numpy as np
+import pandas
 
-#ticker 
-ticker="AAPL"
-
-
-def getBeta():
+def getBeta(ticker):
 	#beta call
 	beta = float(requests.get("https://api-v2.intrinio.com/data_point/{}/beta/number?api_key=OjFiOWUxMTJjMDMyOTdhZDVlNTc4ZDA2YmYxNTZhNmYw".format(ticker)).content)
+	return beta
 
 def callBalanceSheet(ticker):
 	#balance sheet call
@@ -31,8 +31,24 @@ def callIncome(ticker):
 	incomeSheet = json.loads(incomeSheet)
 	return incomeSheet
 
+def callCashFlow(ticker):
+	#cash sheet call
+	cashSheet = str(requests.get("https://financialmodelingprep.com/api/financials/cash-flow-statement/{}".format(ticker)).content)
+	cashSheet = cashSheet[7:len(incomeSheet)-6]
+	cashSheet.replace("\\n", "")
+	cashSheet = ' '.join(cashSheet.split())
+	cashSheet = cashSheet.replace("\\n", "")
+	cashSheet = cashSheet.replace("\\", "")
+	cashSheet = cashSheet.replace("<", "")
+	#print(cashSheet[4481])
+	cashSheet = json.loads(cashSheet)
+	return cashSheet
+
 def getLiab(ticker):
-	sheetKeys = list(balanceSheet[ticker]["Additional paid-in capital"].keys())
+	try:
+		sheetKeys = list(balanceSheet[ticker]["Additional paid-in capital"].keys())
+	except Exception:
+		return "NA"
 	max = 0
 	for i in range(len(sheetKeys)):
 		year = int(sheetKeys[i][:-3])
@@ -43,7 +59,10 @@ def getLiab(ticker):
 	return balanceSheet[ticker]["Total liabilities"][ref]
 
 def getStockEquity(ticker):
-	sheetKeys = list(balanceSheet[ticker]["Total stockholders' equity"].keys())
+	try:
+		sheetKeys = list(balanceSheet[ticker]["Total stockholders' equity"].keys())
+	except Exception:
+		return "NA"
 	max = 0
 	for i in range(len(sheetKeys)):
 		year = int(sheetKeys[i][:-3])
@@ -54,7 +73,10 @@ def getStockEquity(ticker):
 	return balanceSheet[ticker]["Total stockholders' equity"][ref]
 
 def getNetIncome(ticker):
-	sheetKeys = list(incomeSheet[ticker]["Net income"].keys())
+	try:
+		sheetKeys = list(incomeSheet[ticker]["Net income"].keys())
+	except Exception:
+		return "NA"
 	max = 0
 	for i in range(len(sheetKeys)):
 		try:
@@ -67,19 +89,53 @@ def getNetIncome(ticker):
 			max = year
 	#print(max)
 	return incomeSheet[ticker]["Net income"][ref]
+
+def getFreeCash(ticker):
+	try:
+		sheetKeys = list(cashSheet[ticker]["Free cash flow"].keys())
+	except:
+		return "NA"
+	max = 0
+	for i in range(len(sheetKeys)):
+		try:
+			year = int(sheetKeys[i][:-3])
+		
+		
+			if (year > max) and not (cashSheet[ticker]["Free cash flow"][sheetKeys[i]] == ""):
+				ref = sheetKeys[i]
+				max = year
+		
+			return cashSheet[ticker]["Free cash flow"][ref]
+		except Exception:
+			return "NA"
 	
-getBeta()
-balanceSheet = callBalanceSheet(ticker)
-incomeSheet = callIncome(ticker)
-print("Liab: {}".format(getLiab(ticker)))
-print("Equity: {}".format(getStockEquity(ticker)))
-print("Net Income: {}".format(getNetIncome(ticker)))
-#Return on equity (ROE) is a measure of financial performance calculated by dividing net income by shareholders' equity.
-
-#The Debt/Equity (D/E) Ratio is calculated by dividing a company's total liabilities by its shareholder equity
-
-#retained earnings
+#open sp CSV and create list of tickers
+def openTickers(fileName):
+	colNames = ['', 'company', 'headquarters', 'industry', 'sector', 'symbol']
+	data = pandas.read_csv(fileName, names=colNames)
+	tickers = data.symbol.tolist()
+	return tickers[1:]
 
 
+sp500 = openTickers("./sp500")
 
+ROE = ""
+DTE = ""
+with open('financials.csv', 'a') as f:
+	f.write(",ticker, liabilities, equity, netincome, freecashflow, beta, ROE, debttoequity")
+	for i, ticker in enumerate(sp500):
+		print(ticker)
+		beta = getBeta(ticker)
+		balanceSheet = callBalanceSheet(ticker)
+		incomeSheet = callIncome(ticker)
+		cashSheet = callCashFlow(ticker)
+		try:
+			DTE = float(getLiab(ticker))/float(getStockEquity(ticker))
+		except Exception:
+			DTE = "NA"
 
+		try:
+			ROE = float(getNetIncome(ticker))/float(getStockEquity(ticker))
+		except Exception:
+			ROE = "NA"
+		f.write("{},{},{},{},{},{},{},{},{}\n".format(i, ticker, getLiab(ticker), getStockEquity(ticker), getNetIncome(ticker), getFreeCash(ticker), beta, ROE, DTE))
