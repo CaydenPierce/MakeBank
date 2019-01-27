@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*logo*/
+a.navbar-brand {
+	margin-left: 20%;
+}
+
+/*nav*/
+li.nav-item { 
+	padding-left: 2rem;
+}
+
+ul.navbar-nav {
+	float: right;
+	text-align: right;
+}
+
+.bg-dark { 
+	background-color: #2a3d4f00 !important;
+}
+
+a.nav-link {
+	color: black !important;
+	font-family: 'Rubik', sans-serif;
+}
